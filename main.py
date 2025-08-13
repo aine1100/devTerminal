@@ -21,7 +21,7 @@ except ImportError as e:
     sys.exit(1)
 
 def main():
-    """Main application entry point"""
+    """Main application entry point this is the app"""
     app = QApplication(sys.argv)
     app.setApplicationName("DevTerm")
     app.setApplicationVersion("1.0.0")
